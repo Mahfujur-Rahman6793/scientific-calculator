@@ -46,12 +46,24 @@ body{
     background: green;
     color: white;
 }
+#ac:hover{
+    background: rgb(242, 247, 242);
+    color: black;
+}
 
 #ce{
     background-color: rgb(244, 3, 3);
     color: white;
 }
+#ce:hover{
+    background: rgb(242, 247, 242);
+    color: black;
+}
 #eval{
     background: blue;
     color: white;
+}
+#eval:hover{
+    background: rgb(242, 247, 242);
+    color: black;
 }
