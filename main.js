@@ -31,3 +31,30 @@ const fact = () => {
     i -= 1;
     display.value = f;
 }
+
+const sin = () => {
+    display.value = Math.sin(display.value);
+}
+const cos = () => {
+    display.value = Math.cos(display.value);
+}
+const tan = () => {
+    display.value = Math.tan(display.value);
+}
+const log = () => {
+    display.value = Math.log(display.value);
+}
+const sqrt = () => {
+    display.value = Math.sqrt(display.value,2);
+}
+const pow = () => {
+    display.value = Math.pow(display.value,2);
+}
+const pi = () => {
+    display.value = 3.1416;
+}
+const e = () => {
+    display.value = 2.71828182846;
+}
+
+
