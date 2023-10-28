@@ -3,7 +3,16 @@ const display = document.getElementById('screen');
 const btn = document.querySelectorAll('.btn');
 for (item of btn) {
     item.addEventListener('click', (e) => {
-        const btnText = e.target.innerText;
+        let btnText = e.target.innerText;
+        if (btnText == '×') {
+            btnText= '*';
+        }
+        if (btnText == '÷') {
+            btnText = '/';
+        }
+        if (btnText == '×') {
+            btnText = '*';
+        }
 
         display.value += btnText;
         
