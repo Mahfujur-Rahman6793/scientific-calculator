@@ -1,4 +1,7 @@
 const display = document.getElementById('screen');
+display.addEventListener('keydown', (e) => {
+    e.preventDefault();
+})
 // console.log(display);
 const btn = document.querySelectorAll('.btn');
 for (item of btn) {
